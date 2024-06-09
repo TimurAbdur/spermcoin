@@ -1,0 +1,47 @@
+.header {
+    padding: 25px 0;
+    background-color: darkgrey;
+    box-shadow: 0 3px 5px rgb(139, 139, 139);
+}
+
+.header__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.header__profit {
+    text-align: center;
+    color: rgb(94, 61, 0);
+}
+
+.header__profit_num {
+    margin-top: 3px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__profit_num img {
+    width: 25px;
+    height: 25px;
+    display: inline;
+    margin-right: 5px;
+    vertical-align: center;
+}
+
+.header__user_info {
+    justify-self: end;
+}
+
+@media (max-width: 460px) {
+    
+    .header__profit_num img {
+        width: 25px;
+        height: 25px;
+        display: inline;
+        margin-right: 5px;
+        vertical-align: center;
+    }
+}
